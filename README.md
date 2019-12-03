@@ -1,5 +1,8 @@
 # OIDC Workshop (3 December 2019)
 
+This workshop is designed to walkthrough 
+[https://github.com/julie-ng/azure-openid-connect-demo](https://github.com/julie-ng/azure-openid-connect-demo) and designed to run on local machine. 
+
 ### Caution
 
 Any credentials here are:
@@ -8,6 +11,7 @@ Any credentials here are:
 - client IDs and secrets will be deleted at end of business day today
 
 i.e. nothing to hack 😉
+
 
 ## Step 1 - Clone
 
@@ -20,10 +24,8 @@ git clone https://github.com/julie-ng/aad-oidc-workshop
 ## Step 2 - Initialize Submodules
 
 ```
-git submodule init
-
+git submodule update --init
 ```
-
 
 ## Step 3 - Configure
 
