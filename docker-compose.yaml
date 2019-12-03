@@ -1,0 +1,40 @@
+version: '3'
+services:
+  frontend:
+    build: ./oidc-demo-frontend/
+    command: npm run dev
+    depends_on:
+      - middleware
+    environment:
+      PORT: 3000
+      API_HOST: http://middleware:4000
+    ports:
+      - '3000:3000'
+    volumes:
+      - nm1:/app/node_modules
+      - ./oidc-demo-frontend/:/app
+
+  middleware:
+    build: ./oidc-demo-middleware
+    command: npm start
+    env_file:
+      - ./oidc-demo-middleware/.env
+    environment:
+      REDIS_HOST: redis
+      PORT: 4000
+    depends_on:
+      - redis
+    ports:
+      - '4000:4000'
+    volumes:
+      - ./oidc-demo-middleware/app:/workspace/app
+      - nm2:/app/node_modules
+
+  redis:
+    image: redis:latest
+    expose:
+      - '6379'
+
+volumes:
+  nm1: {}
+  nm2: {}
