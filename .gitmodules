@@ -1,0 +1,3 @@
+[submodule "openid-demo-frontend"]
+	path = openid-demo-frontend
+	url = https://github.com/julie-ng/openid-demo-frontend
