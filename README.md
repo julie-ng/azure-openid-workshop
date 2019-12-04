@@ -27,7 +27,7 @@ To run this version, please visit the repo for further details at [azure-openid-
 
 ## Variation #2 - Microservice Architecture (intermediate)
 
-If you use the submodules and `docker-compoes.yaml` in this git repository, you have a microservice-like architecture where the [frontend](https://github.com/julie-ng/openid-demo-frontend) is an indenpendently depoloyable [VueJS](https://vuejs.org/) Single Page Application and separate from the backend.
+If you use the submodules and `docker-compoes.yaml` in this git repository, you have a microservice-like architecture where the [frontend](https://github.com/julie-ng/openid-demo-frontend) is an independently deployable [VueJS](https://vuejs.org/) Single Page Application and separate from the backend.
 
 Note: this version is designed to fail out of the box. If you follow the readme, however, you will get it working easily.
 
