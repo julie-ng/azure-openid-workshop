@@ -3,9 +3,20 @@
 This workshop was given successfully to an Azure customer on 3 December 2019 and is designed to walkthrough 
 [https://github.com/julie-ng/azure-openid-connect-demo](https://github.com/julie-ng/azure-openid-connect-demo) and designed to run on local machine. 
 
+### Contents
+
+- [Technical Requirements](#requirements)
+- [Workshop Variations](#workshop-variations)
+	1. [Monolithic (easy)](#variation-1---monolithic-easy)
+	2. [Microservice Architecture (intermediate)](#variation-2---microservice-architecture-intermediate)
+- [Workshop Outline for Trainers](#workshop-outline-for-trainers)
+	- [Workshop Goals](#workshop-goals)
+	- [Key Topics](#key-topics)
+	- [5 Take Aways for participants](#5-takeaways-for-participants)
+
 <img src="./images/preview-aad-login.png" alt="Preview: Azure Active Directory Login" width="350">
 
-### Requirements
+# Technical Requirements
 
 To run this locally, participants only require
 
