@@ -89,3 +89,52 @@ This demo uses a demo Azure AD tenant (aadoauthdemo.onmicrosoft.com), that only 
 If you get the app successfully running, you will be able to login with the users above and view your ID Token:
 
 ![Preview: Demo](./images/preview-demo.png)
+
+# Workshop Outline for Trainers
+
+This workshop was originally prepared for a closed audience and the branded presentation and custom slides cannot be shared publicly. If you are considering giving a workshop on this topic, feel free to use this outline:
+
+## Workshop Goals
+
+By end of this workshop (90 minutes), participants should learn fundamentals of cloud identity:
+
+- Difference between OpenID Connect and OAuth 2.0
+- Security implications with OIDC and OAuth architectures
+- Hands-On implementation OpenID Flows (on local computer with Docker)
+
+## Key Topics
+
+- History - where did OAuth 2.0 come from?
+- **Authentication (AuthN) & OpenID Connect**
+	- Actors:
+		1. Client App
+		2. User
+		3. Identity Provider
+	- ID Tokens
+	- Claims
+	- Compare with other security mechanisms: passwords, certificates, public/private keys
+- **Authorization (AuthZ) & OAuth 2.0**
+	- Actors:
+		1. Client App
+		2. User
+		3. Identity Provider
+		4. _Data_
+	- Scopes
+	- Implicit Flow vs Authorization Code Flow
+	- Security: Frontends vs Backends
+	- User Principals vs Service Principals
+	- One person, many roles
+	- Apps can have many roles:
+		- Client Role
+		- Resource Server Role
+	- People can span many groups
+
+## 5 Takeaways for Participants
+
+Participants should understand these key concepts at end of the workshop:
+
+1. Authentication asks “who are you?”
+2. Authorization asks “do you have access?”
+3. “Application” is a Conceptual Term
+4. Use Authorization Code Flow because backend channels are more secure
+5. Interaction with protected resources may involved mixed contexts and roles.
