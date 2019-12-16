@@ -5,14 +5,14 @@ This workshop was given successfully to an Azure customer on 3 December 2019 and
 
 ### Contents
 
-- [Technical Requirements](#requirements)
+- [Technical Requirements](#technical-requirements)
 - [Workshop Variations](#workshop-variations)
 	1. [Monolithic (easy)](#variation-1---monolithic-easy)
 	2. [Microservice Architecture (intermediate)](#variation-2---microservice-architecture-intermediate)
 - [Workshop Outline for Trainers](#workshop-outline-for-trainers)
 	- [Workshop Goals](#workshop-goals)
 	- [Key Topics](#key-topics)
-	- [5 Take Aways for participants](#5-takeaways-for-participants)
+	- [5 Take Aways for Participants](#5-takeaways-for-participants)
 
 <img src="./images/preview-aad-login.png" alt="Preview: Azure Active Directory Login" width="350">
 
